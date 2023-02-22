@@ -1,0 +1,18 @@
+### 
+GET http://localhost:3001/api/patients
+
+###
+GET http://localhost:3001/api/patients/d2773598-f723-11e9-8f0b-362b9e155667
+
+
+###
+POST http://localhost:3001/api/patients/
+Content-Type: application/json
+
+{
+  "name": "Gabriel Lorenzo Yangzon",
+  "dateOfBirth": "1991-07-05",
+  "ssn": "300179-77B",
+  "gender": "male",
+  "occupation": "Programmer"
+}
